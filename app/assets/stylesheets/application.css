@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+.list{
+  background-color: rgb(249, 225, 190);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+li{
+  padding: 5px;
+  display: inline;
+}
+
+h1 h2{
+  font-size: 90px;
+}
+
+.options{
+  text-align: center;
+}
+
+ul{
+  padding-left: 0;
+  text-align: center;
+}
+
+.box{
+  background-color: gainsboro;
+  padding: 20px;
+  border-radius: 20px;
+  width: 50%;
+}

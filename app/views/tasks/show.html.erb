@@ -1,0 +1,14 @@
+<div class="container d-flex flex-column align-items-center my-4 box">
+  <div class="list">
+  <h2><%= @task.title %></h2>
+  <p><%= @task.details %></p>
+  </div>
+</div>
+
+<div class="options">
+
+  <li><%= link_to "Return to tasks", tasks_path%></li>
+  <li><%= link_to "Edit this task", edit_task_path%></li>
+  <li><%= link_to "Delete this task", task_path(@task), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}%></li>
+
+</div>
